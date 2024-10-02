@@ -34,6 +34,9 @@ public class Ladder {
     }
     private static void drawingLadder(int j) {
         if (j%2== 1) {
+
+
+
             Random random = new Random();
             System.out.print(random.nextBoolean() ? "-" : " ");
         }
