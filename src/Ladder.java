@@ -35,10 +35,9 @@ public class Ladder {
     private static void drawingLadder(int j) {
         if (j%2== 1) {
             randomBridge();
+            return;
         }
-        else {
-            System.out.print('|');
-        }
+        System.out.print('|');
     }
     private static void randomBridge() {
         Random random = new Random();
